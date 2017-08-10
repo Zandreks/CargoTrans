@@ -1,3 +1,7 @@
+body{
+  font-family: 'Cuprum', sans-serif;
+
+}
 .contact{
   text-align: center;
   font-size: 22px;
@@ -129,6 +133,7 @@ color: #429842;
   background: url("../img/blok6fon.png") no-repeat  ;
  background-size: cover;
 -moz-background-size: cover;  /* Firefox 3.6 */
+
 }
 #blok6h3{
   margin-left: 50px;
@@ -137,14 +142,55 @@ color: #429842;
   font-size: 42px;
 }
 .blok6p{
-  font-size: 40px;
+  font-size: 30px;
 line-height: 33px;
 color: #0a1139;
 font-weight: 500;
+text-align: center;
 }
-#colblok6{
+.colblok6{
   margin-top: 100px;
+
 }
-#colblok62{
-  margin-top: 100px;
+.imgicon{
+  text-align: center;
+}
+.h3blok7{
+font-size: 55px;
+text-align: center;
+color: #fff;
+}
+.blok7p{
+  font-size: 35px;
+  text-align: center;
+  color: #fff
+}
+.blok7{
+background: url("../img/fonblok7.png") no-repeat;
+background-size: cover;
+
+}
+.blok8p{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+  float:right;
+  text-align: right;
+
+}
+.blok8p2{
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 30px
+}
+.blok8p b{
+  background:#429842;
+}
+.blok8p span{
+  background:#429842;
+}
+.blok8ul{
+  margin-left: 80px;
+  font-size:22px;
+
 }
