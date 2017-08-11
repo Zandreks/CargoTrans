@@ -1,3 +1,18 @@
+.thumb img {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0);
+  border-radius:5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding:5px;
+}
+.thumb img:hover {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1);
+}
+.thumb {
+  padding:5px;
+}
 body{
   font-family: 'Cuprum', sans-serif;
 
@@ -170,27 +185,86 @@ background: url("../img/fonblok7.png") no-repeat;
 background-size: cover;
 
 }
-.blok8p{
-  font-size: 30px;
-  color: #fff;
-  margin-top: 30px;
-  float:right;
-  text-align: right;
+.ulblok7{
+  font-size: 25px;
+  color:#fff;
 
+}
+
+.blok8p{
+
+  color: #fff;
+  margin-top: 13px;
+  margin-left: 78px;
 }
 .blok8p2{
   font-size: 25px;
   margin-left: 100px;
   margin-top: 30px
 }
-.blok8p b{
-  background:#429842;
-}
-.blok8p span{
-  background:#429842;
+
+.spanblok8 {
+  background: #429842;
+  color: #FFF;
+  font-size: 34px;
+  line-height: 36px;
+  padding: 0 5px;
+  margin-left: 20px;
+
 }
 .blok8ul{
   margin-left: 80px;
   font-size:22px;
 
+}
+.headblok9text{
+  text-align: center;
+  font-size: 34px;
+  color: #fff;
+  line-height: 32px
+}
+.heablok9{
+  background: url(../img/headeblok9.png) no-repeat;
+  background-size: cover;
+background-position: top;
+}
+.textblok9ico{
+  background: #3bb93b;
+text-align: center;
+padding: 10px;
+color: #fff;
+margin-bottom: 10px;
+margin-top: 10px;
+font-size: 23px;
+}
+.blok9tet p{
+color: #0a1139;
+font-style: italic;
+line-height: 22px;
+margin: 5px 0 0;
+font-size: 21px;
+
+}
+.ingblok9 img{
+  width: 100%
+}
+.blok9tet{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 25px;
+}
+
+.headblok10{
+  font-size: 14px;
+  background: #ce772d;
+color: #fff;
+margin-bottom: 10px
+}
+.blok10{
+  margin-top: 10px;
+}
+.headblok10 p{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 13px;
 }
