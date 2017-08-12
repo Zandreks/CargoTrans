@@ -1,0 +1,96 @@
+@media screen and (max-width: 995px) {
+    .blok1text {
+        text-align: center;
+    }
+
+    .textaa {
+        font-size: 29px;
+        line-height: normal;
+
+    }
+
+    .textblok2, .textblok3 {
+        float: none;
+        margin: 0;
+
+    }
+
+    .textblok4 {
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+
+    .texta {
+        margin-left: 0px;
+
+    }
+
+    .formcal {
+        width: 100%;
+    }
+
+    .textb {
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #blok6h3 {
+        margin-left: 0px;
+    }
+
+    .blok7p {
+        font-size: 19px;
+        text-align: left;
+    }
+
+    .ulblok7 {
+        text-align: left;
+        font-size: 19px;
+        margin-left: 0px;
+        padding-left: 0px
+    }
+
+    .blok6 img {
+        height: auto;
+        width: 50%;
+    }
+
+    #blok6h3 {
+        text-align: center;
+        margin-bottom: 250px
+    }
+
+    .blok8p {
+        margin-left: 0;
+        text-align: center;
+        float: none;
+    }
+
+    .spanblok8 {
+        margin: 0;
+    }
+
+    .blok8p2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .blok8ul {
+        margin: 0 auto;;
+
+    }
+}
+
+@media screen and (max-width: 416px) {
+    #blok6h3 {
+        margin-bottom: 200px
+    }
+
+    .blok6 img {
+        height: auto;
+        width: 70%;
+    }
+
+}

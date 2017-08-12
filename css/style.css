@@ -1,270 +1,318 @@
 .thumb img {
-  filter: none; /* IE6-9 */
-  -webkit-filter: grayscale(0);
-  border-radius:5px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding:5px;
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0);
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
 }
+
 .thumb img:hover {
-  filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1);
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1);
 }
+
 .thumb {
-  padding:5px;
-}
-body{
-  font-family: 'Cuprum', sans-serif;
-
-}
-.contact{
-  text-align: center;
-  font-size: 22px;
-  color: #808080;
-
-}
-#btncal{
-  float: right;
-}
-.container{
-  -webkit-box-shadow: 0 0 50px #D0D0D0;
-  box-shadow: 0 0 50px #D0D0D0;
-}
-#headertext{
-  font-size: 17px;
-margin-top: 67px;
--webkit-box-shadow: 0 0 50px #D0D0D0;
-box-shadow: 0 0 50px #D0D0D0;
-text-align: center;
-}
-.modal-content{
-  background: #4c4c4c;
-color: #fff;
-text-align: center;
-}
-.modaltext{
-  padding: 8px;
-background: #ff6600;
-margin-bottom: 10px;
-}
-.formtext{
-  padding: 8px;
-background: #ff6600;
-margin-bottom: 10px;
-}
-.textaa{
-background: #429842;
-color: #FFF;
-font-size: 37px;
-line-height: 36px;
-padding: 0 5px;
-
-}
-.texta{
-background: #429842;
-color: #FFF;
-font-size: 34px;
-line-height: 36px;
-padding: 0 5px;
-
-margin-left: 20px;
-}
-.textblok2 p{
-color: #0A1139;
-font-size: 31px;
-line-height: 30px;
-
-}
-.textblok2{
-  float: left;
-  margin-right: 5px;
-}
-.textblok3{
-  float:left;
-  font-size: 72px;
-line-height: 60px;
-color: #429842;
-}
-.textblok4{
-  margin-top: 143px;
-}
-.blok3{
-  background: url(../img/fonblok.jpg)  no-repeat;
-  background-size: cover;
- -moz-background-size: cover;  /* Firefox 3.6 */
- background-position: center;  /* Internet Explorer 7/8 */
-}
-.formcal{
-  width: 50%;
-  margin: 20px auto;
-  background: #4c4c4c;
-  border-radius: 12px;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
-.blok5{
-  background: url(../img/imgblok2.png)  no-repeat;
-  background-size: cover;
- -moz-background-size: cover;  /* Firefox 3.6 */
- background-position: center;  /* Internet Explorer 7/8 */
+    padding: 5px;
 }
 
-.textzak{
-  font-size: 91px;
-  color: #fff;
-  line-height: 76px;
-  text-align: center;
-
-}
-.textb{
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
-  margin-left: 30px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: 50px;
-}
-.textb2{
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-top: 100px;
-  text-align: center;
-
-}
-.textb3{
-  margin-left: 0;
-  margin-right: 30px;
-  margin-bottom: 0;
-  margin-top: 54px;
-  text-align: right;
-}
-#eroor{
-  text-align: center;
-}
-.blok6{
-  background: url("../img/blok6fon.png") no-repeat  ;
- background-size: cover;
--moz-background-size: cover;  /* Firefox 3.6 */
-
-}
-#blok6h3{
-  margin-left: 50px;
-  color: #fff;
-  font-weight: 900;
-  font-size: 42px;
-}
-.blok6p{
-  font-size: 30px;
-line-height: 33px;
-color: #0a1139;
-font-weight: 500;
-text-align: center;
-}
-.colblok6{
-  margin-top: 100px;
-
-}
-.imgicon{
-  text-align: center;
-}
-.h3blok7{
-font-size: 55px;
-text-align: center;
-color: #fff;
-}
-.blok7p{
-  font-size: 35px;
-  text-align: center;
-  color: #fff
-}
-.blok7{
-background: url("../img/fonblok7.png") no-repeat;
-background-size: cover;
-
-}
-.ulblok7{
-  font-size: 25px;
-  color:#fff;
+body {
+    font-family: 'Cuprum', sans-serif;
 
 }
 
-.blok8p{
+.contact {
+    text-align: center;
+    font-size: 22px;
+    color: #808080;
 
-  color: #fff;
-  margin-top: 13px;
-  margin-left: 78px;
 }
-.blok8p2{
-  font-size: 25px;
-  margin-left: 100px;
-  margin-top: 30px
+
+#btncal {
+    float: right;
+}
+
+.container {
+    -webkit-box-shadow: 0 0 50px #D0D0D0;
+    box-shadow: 0 0 50px #D0D0D0;
+}
+
+#headertext {
+    font-size: 17px;
+    margin-top: 67px;
+    -webkit-box-shadow: 0 0 50px #D0D0D0;
+    box-shadow: 0 0 50px #D0D0D0;
+    text-align: center;
+}
+
+.modal-content {
+    background: #4c4c4c;
+    color: #fff;
+    text-align: center;
+}
+
+.modaltext {
+    padding: 8px;
+    background: #ff6600;
+    margin-bottom: 10px;
+}
+
+.formtext {
+    padding: 8px;
+    background: #ff6600;
+    margin-bottom: 10px;
+}
+
+.textaa {
+    background: #429842;
+    color: #FFF;
+    font-size: 37px;
+    line-height: 36px;
+    padding: 0 5px;
+
+}
+
+.texta {
+    background: #429842;
+    color: #FFF;
+    font-size: 34px;
+    line-height: 36px;
+    padding: 0 5px;
+
+    margin-left: 20px;
+}
+
+.textblok2 p {
+    color: #0A1139;
+    font-size: 31px;
+    line-height: 30px;
+
+}
+
+.textblok2 {
+    float: left;
+    margin-right: 5px;
+}
+
+.textblok3 {
+    float: left;
+    font-size: 72px;
+    line-height: 60px;
+    color: #429842;
+}
+
+.textblok4 {
+    margin-top: 143px;
+}
+
+.blok3 {
+    background: url(../img/fonblok.jpg) no-repeat;
+    background-size: cover;
+    -moz-background-size: cover; /* Firefox 3.6 */
+    background-position: center; /* Internet Explorer 7/8 */
+}
+
+.formcal {
+    width: 50%;
+    margin: 20px auto;
+    background: #4c4c4c;
+    border-radius: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.blok5 {
+    background: url(../img/imgblok2.png) no-repeat;
+    background-size: cover;
+    -moz-background-size: cover; /* Firefox 3.6 */
+    background-position: center; /* Internet Explorer 7/8 */
+}
+
+.textzak {
+    font-size: 64px;
+    color: #fff;
+    line-height: 76px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.textb {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.textb2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.textb3 {
+    margin-left: 0;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 54px;
+    text-align: right;
+}
+
+#eroor {
+    text-align: center;
+}
+
+.blok6 {
+    background: url("../img/blok6fon.png") no-repeat;
+    background-size: cover;
+    -moz-background-size: cover; /* Firefox 3.6 */
+
+}
+
+.blok6 img {
+    height: auto;
+    width: 50%;
+}
+
+#blok6h3 {
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.blok6p {
+    font-size: 30px;
+    line-height: 33px;
+    color: #0a1139;
+    font-weight: 500;
+    text-align: center;
+}
+
+.colblok6 {
+    margin-top: 100px;
+
+}
+
+.imgicon {
+    text-align: center;
+}
+
+.h3blok7 {
+    font-size: 55px;
+    text-align: center;
+    color: #fff;
+}
+
+.blok7p {
+    font-size: 25px;
+    text-align: center;
+    color: #fff
+}
+
+.blok7 {
+    background: url("../img/fonblok7.png") no-repeat;
+    background-size: cover;
+
+}
+
+.ulblok7 {
+    font-size: 22px;
+    color: #fff;
+
+}
+
+.blok8p {
+
+    color: #fff;
+    margin-top: 13px;
+    margin-left: 78px;
+}
+
+.blok8p2 {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 30px
 }
 
 .spanblok8 {
-  background: #429842;
-  color: #FFF;
-  font-size: 34px;
-  line-height: 36px;
-  padding: 0 5px;
-  margin-left: 20px;
+    background: #429842;
+    color: #FFF;
+    font-size: 34px;
+    line-height: 36px;
+    padding: 0 5px;
+    margin-left: 20px;
 
 }
-.blok8ul{
-  margin-left: 80px;
-  font-size:22px;
+
+.blok8ul {
+    margin-left: 80px;
+    font-size: 22px;
 
 }
-.headblok9text{
-  text-align: center;
-  font-size: 34px;
-  color: #fff;
-  line-height: 32px
-}
-.heablok9{
-  background: url(../img/headeblok9.png) no-repeat;
-  background-size: cover;
-background-position: top;
-}
-.textblok9ico{
-  background: #3bb93b;
-text-align: center;
-padding: 10px;
-color: #fff;
-margin-bottom: 10px;
-margin-top: 10px;
-font-size: 23px;
-}
-.blok9tet p{
-color: #0a1139;
-font-style: italic;
-line-height: 22px;
-margin: 5px 0 0;
-font-size: 21px;
 
-}
-.ingblok9 img{
-  width: 100%
-}
-.blok9tet{
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-top: 25px;
+.headblok9text {
+    text-align: center;
+    font-size: 34px;
+    color: #fff;
+    line-height: 32px
 }
 
-.headblok10{
-  font-size: 14px;
-  background: #ce772d;
-color: #fff;
-margin-bottom: 10px
+.heablok9 {
+    background: url(../img/headeblok9.png) no-repeat;
+    background-size: cover;
+    background-position: top;
 }
-.blok10{
-  margin-top: 10px;
+
+.textblok9ico {
+    background: #3bb93b;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
 }
-.headblok10 p{
-  font-size: 35px;
-  text-align: center;
-  padding-top: 13px;
+
+.blok9tet p {
+    color: #0a1139;
+    font-style: italic;
+    line-height: 22px;
+    margin: 5px 0 0;
+    font-size: 21px;
+
+}
+
+.ingblok9 img {
+    width: 100%
+}
+
+.blok9tet {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 25px;
+}
+
+.headblok10 {
+    font-size: 14px;
+    background: #ce772d;
+    color: #fff;
+    margin-bottom: 10px
+}
+
+.blok10 {
+    margin-top: 10px;
+}
+
+.headblok10 p {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 13px;
 }
