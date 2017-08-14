@@ -316,3 +316,40 @@ body {
     text-align: center;
     padding-top: 13px;
 }
+.headblok11 {
+    font-size: 14px;
+    background: #3bb93b;
+    color: #fff;
+    margin-bottom: 10px
+}
+.headblok11 p {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 13px;
+}
+.contblok11{
+
+}
+.contblok11 img{
+  float: left;
+  width: 27%;
+      margin-right: 19px;
+}
+.contblok11 h3{
+ color: #3bb93b;
+ font-size: 30px;
+
+}
+.contblok11 p{
+  font-size: 20px;
+  color: #6b2c08;
+
+}
+.headblok12{
+  font-size: 38px;
+  background: #ce772d;
+  color: #fff;
+  margin-bottom: 10px;
+  text-align: center;
+
+}

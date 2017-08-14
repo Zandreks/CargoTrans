@@ -81,6 +81,13 @@
         margin: 0 auto;;
 
     }
+    .contblok11{
+      text-align: center;
+    }
+    .contblok11 img{
+      float: none;
+      width: 50%;
+    }
 }
 
 @media screen and (max-width: 416px) {
