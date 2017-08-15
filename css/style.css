@@ -213,7 +213,7 @@ body {
 
 .blok7p {
     font-size: 25px;
-    text-align: center;
+    text-align: justify;
     color: #fff
 }
 
@@ -349,7 +349,62 @@ body {
   font-size: 38px;
   background: #ce772d;
   color: #fff;
-  margin-bottom: 10px;
   text-align: center;
+  padding: 0px;
+}
 
+.contblok12 h3{
+  text-align: center;
+  font-size: 30px;
+  color: #ce772d;
+
+}
+.contblok12{
+  padding: 0px;
+}
+.contblok12 p{
+  font-size: 25px;
+  text-align: center;
+}
+hr {
+    border: none; /* Убираем границу для браузера Firefox */
+
+    height: 3px; /* Толщина линии */
+   }
+#btnc{
+  margin-top: 16px;
+  font-size: 25px;
+  background: #ce772d;
+}
+.blok13 h2{
+  text-align: center;
+    font-size: 42px;
+    color: green;
+}
+.footer{
+  background: black;
+  margin-top: 20px;
+  color: #fff;
+}
+.footer p{
+  font-size: 25px;
+  margin-top: 25px
+}
+#sslraz{
+  text-align: right;
+}
+#toTop {
+width:100px;
+border:1px solid #ccc;
+background:black;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:#fff;
+font-family:verdana;
+font-size:11px;
 }

@@ -5,9 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CargoTrans</title>
-
-    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>Грузоперевозки Астана, перевозка грузов и доставка в Казахстан, CargoTrans.</title>
+  	<meta name="description" content="Перевозка и доставка груза в Казахстан от транспортной компании CargoTrans. Доставка по всему Казахстану и СНГ по низким ценам!  Транспортные компании алматы предлагает услуги: грузоперевозки Алматы, перевозка грузов Астана">
+  	<meta name="keywords" content="грузоперевозки алматы, грузоперевозки астана, грузоперевозки по казахстану, транспортные компании астаны, транспортные компании казахстана, перевозка грузов, доставка в Казахстан">
+    <meta name="author" content="StartNext.kz">
+    <meta name="copyright" content="Все права принадлежат StartNext.kz">
+   <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
 
@@ -27,6 +30,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+    <link rel="shortcut icon" href="img/прозрачное_лого_карготранзит.png" type="image/png">
 
 </head>
 <body>
@@ -48,9 +52,9 @@
                 <div class="contact">
                     Телефоны для контакта 87719065555 87719075555
                     <br/>
-                    info@CargoTrans.kz
+                    Cargotransastana@mail.ru
                 </div>
-                <button type="button" id="btncal" class="btn btn-success btn-block">Заказать звонок</button>
+                <button type="button" id="btncal" class="btn btn-success btn-block btnmodal">Заказать звонок</button>
             </div>
 
             <hr/>
@@ -104,15 +108,15 @@
                         ЗАПОЛНИТЕ ФОРМУ И МЫ ОБЯЗАТЕЛЬНО СВЯЖЕМСЯ С ВАМИ
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Ваше имя" class="form-control">
+                        <input type="text" placeholder="Ваше имя" id="name1" class="form-control">
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="email" class="form-control">
+                        <input type="email" placeholder="email" id="email1" class="form-control">
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Телефон" class="form-control">
+                        <input type="text" placeholder="Телефон" id="phone1" class="form-control">
                     </div>
-                    <button type="button" id="sendcal2" class="btn btn-success btn-block">Оставить заявку</button>
+                    <button type="button" id="sendcal2" class="btn btn-success btn-block btncal1">Оставить заявку</button>
 
                 </form>
             </div>
@@ -239,15 +243,15 @@
                         ЗАПОЛНИТЕ ФОРМУ И МЫ ОБЯЗАТЕЛЬНО СВЯЖЕМСЯ С ВАМИ
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Ваше имя" class="form-control">
+                        <input type="text" placeholder="Ваше имя" id="name2" class="form-control">
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="email" class="form-control">
+                        <input type="email" placeholder="email" id="email2" class="form-control">
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Телефон" class="form-control">
+                        <input type="text" placeholder="Телефон" id="phone2" class="form-control">
                     </div>
-                    <button type="button" id="sendcal2" class="btn btn-success btn-block">Оставить заявку</button>
+                    <button type="button" id="sendcal2" class="btn btn-success btn-block btncal2">Оставить заявку</button>
 
                 </form>
             </div>
@@ -459,46 +463,36 @@
   </p>
   </div>
 </div>
+
 <div class="row blok12">
   <div class="col-md-12 headblok12">
     <p>КАК МЫ РАБОТАЕМ? </p>
   </div>
-  <div class="col-md-6 contblok12">
-    <h3>ЗАЯВКА</h3>
-    <p>Вы оставляете запрос на ком-
-мерческое предложение, чтобы
-сэкономить свое время</p>
+  <div class="col-md-12 contblok12">
+  <img src="img/как мы работаем_картинка.png" class="ing-rounded" width="100%" alt="">
   </div>
 
-<div class="col-md-6 contblok12">
-  <h3>УТОЧНЕНИЕ ДЕТАЛЕЙ</h3>
-  <p>Наш менеджер связывается с
-вами для уточнения деталей
-заказа</p>
+
 </div>
-<div class="col-md-6 contblok12">
-  <h3>РАСЧЕТ</h3>
-  <p>Вы получаете расчет вашего
-заказа с учетом оптимальной
-схемы доставки</p>
+<hr noshade size="2">
+
+<div class="row blok13">
+  <div class="col-md-6">
+    <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
+  </div>
+  <div class="col-md-6">
+    <button type="button" id="btnc" class="btn btn-success btn-block btnmodal">Задать вопрос!</button>
+
+  </div>
 </div>
-<div class="col-md-6 contblok12">
-  <h3>ПОДПИСАНИЕ</h3>
-  <p>Мы заключаем договор на пере-
-возку для гарантии сохранности
-груза и сроков доставки</p>
-</div>
-<div class="col-md-6 contblok12">
-  <h3>ПОГРУЗКА</h3>
-  <p>Мы забираем ваш груз в согла-
-сованные сроки </p>
-</div>
-<div class="col-md-6 contblok12">
-  <h3>ДОСТАВКА И ПРИЕМКА</h3>
-  <p>Получатель принимает груз по
-количеству и качеству согласно
-накладной от Отправителя</p>
-</div>
+<div class="row footer">
+  <div class="col-md-6">
+      <p>&copy;	Все права защищены <?php echo date("Y")?>
+  </div>
+  <div class="col-md-6">
+    <p id="sslraz">Разработано <a href="http://startnext.kz" target="_blank">StartNext</a></p>
+  </div>
+
 </div>
 </div>
 
@@ -533,13 +527,14 @@
             <div class="modal-footer">
                 <p class="text-danger" id="eroor"></p>
 
-                <button type="button" id="sendcal" class="btn btn-success btn-block" onclick="callform()">Оставить
+                <button type="button" id="sendcal" class="btn btn-success btn-block btncal" >Оставить
                     заявку
                 </button>
             </div>
         </div>
     </div>
 </div>
+<div id = "toTop" > Наверх </div >
 
 
 </body>
