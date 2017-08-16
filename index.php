@@ -34,7 +34,36 @@
 
 </head>
 <body>
-<div class="container">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+   <div class="container">
+     <div class="navbar-header">
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Навигация</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+     </div>
+
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       <ul class="nav navbar-nav">
+         <li><a href="#blok5">Кто мы?</a></li>
+         <li><a href="#blok6">Наши услуги</a></li>
+         <li><a href="#blok7">О нас</a></li>
+         <li><a href="#blok8">Консультация</a></li>
+         <li><a href="#blok10">Наши рекомендации</a></li>
+         <li><a href="#blok11">Почему выбирают нас?</a></li>
+         <li><a href="#blok12">Как мы работаем?</a></li>
+
+       </ul>
+
+     </div>
+   </div>
+ </nav>
+
+<div class="container" style="
+    margin-top: 60px;
+">
     <div class="row blok1">
         <div class="col-md-12">
             <div class="col-md-3">
@@ -113,7 +142,7 @@
                     <div class="form-group">
                         <input type="email" placeholder="email" id="email1" class="form-control">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group" id="blok5">
                         <input type="text" placeholder="Телефон" id="phone1" class="form-control">
                     </div>
                     <button type="button" id="sendcal2" class="btn btn-success btn-block btncal1">Оставить заявку</button>
@@ -123,7 +152,7 @@
 
         </div>
     </div>
-    <div class="row blok5">
+    <div class="row blok5" >
         <div class="col-md-12">
             <div class="col-md-12">
                 <p class="textzak">Кто мы?</p>
@@ -136,13 +165,15 @@
             <div class="col-md-4">
                 <p class="textb textb2">Мы не просто перевозчик,<br/> Мы успешное решение<br/> для Вашего бизнеса !
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" >
                 <p class="textb textb3">7 лет<br/> на рынке <br/>логистических услуг</p>
-                <p class="textb textb3">Консолидационные склады<br/> в городах<br/> Астана, Алматы, Атырау, Актобе</p>
+                <p class="textb textb3">Консолидационные склады<br/> в городах<br/> Астана, Алматы, Атырау, Актобе, Костанай, Уральск </p>
             </div>
+
         </div>
     </div>
-    <div class="row blok6">
+
+    <div class="row blok6" id="blok6">
         <div class="col-md-12" style="
     margin-bottom: 149px;
 ">
@@ -186,7 +217,7 @@
 
         </div>
     </div>
-    <div class="row blok7">
+    <div class="row blok7" id="blok7">
         <div class="col-md-12">
             <h3 class="h3blok7">О нас</h3>
             <div class="col-md-6">
@@ -212,7 +243,7 @@
 
 
     </div>
-    <div class="row blok8">
+    <div class="row blok8" id="blok8">
         <div class="col-md-12">
             <div class="col-md-7">
                 <div class="blok8p">
@@ -257,7 +288,7 @@
             </div>
         </div>
     </div>
-    <div class="row blok9">
+    <div class="row blok9" id="blok9">
         <div class="col-md-12">
             <div class="heablok9">
                 <div class="headblok9text">
@@ -361,7 +392,7 @@
                 не контролирует ситуацию</p>
         </div>
     </div>
-    <div class="row blok10">
+    <div class="row blok10" id="blok10">
         <div class="col-md-12 headblok10">
             <p>НАШИ РЕКОМЕНДАЦИИ</p>
         </div>
@@ -399,7 +430,7 @@
 
 
     </div>
-<div class="row blok11">
+<div class="row blok11" id="blok11">
       <div class="col-md-12 headblok11">
 
         <p>ПОЧЕМУ ВЫБИРАЮТ НАС?</p>
@@ -464,7 +495,7 @@
   </div>
 </div>
 
-<div class="row blok12">
+<div class="row blok12" id="blok12">
   <div class="col-md-12 headblok12">
     <p>КАК МЫ РАБОТАЕМ? </p>
   </div>
@@ -476,7 +507,7 @@
 </div>
 <hr noshade size="2">
 
-<div class="row blok13">
+<div class="row blok13" id="blok13">
   <div class="col-md-6">
     <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
   </div>

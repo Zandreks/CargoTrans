@@ -104,3 +104,8 @@
     }
 
 }
+@media screen and (max-width: 770px){
+  .navbar-nav>li{
+      display: block;
+  }
+}
