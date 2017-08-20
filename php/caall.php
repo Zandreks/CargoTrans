@@ -6,8 +6,8 @@ $phone = htmlspecialchars($_POST["phone"]);
 $HTTP_HOST = parse_url('http://'.$_SERVER["HTTP_HOST"]); // не трогать!!!
 $HTTP_HOST = str_replace(array("http://","www."),"",$HTTP_HOST['host']); // не трогать!!! вырезает с адреса: "www" для формирования e-mail от которого придёт уведомление
 
-$to = "Cargotransastana@mail.ru"; // кому отсылать: адрес e-mail
-$from = "Cargotransastana@mail.ru"; // адрес, от которого придёт уведомление, желательно указать существующий ящик на хостинге!
+$to = "cargotransastana@mail.ru"; // кому отсылать: адрес e-mail
+$from = "test@test.startnext.kz"; // адрес, от которого придёт уведомление, желательно указать существующий ящик на хостинге!
 $signature = 'Заявка на обратный звонок'; // подпись в письме
 $title = "Заявка на обратный звонок с сайта http://".$_SERVER["HTTP_HOST"];
 $body="<h1>Заявка на обратный звонок от  </h1> <br><p>Имя:$name Email:$email Телефон: $phone </p>";
